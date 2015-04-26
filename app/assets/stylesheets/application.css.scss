@@ -1,4 +1,21 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+ 
+body {
+  font-family: 'Open Sans' sans-serif;
+  color: grey;
+  background-color: #F2EA79;
+}
+
+.grey {
+  position: static;
+  color: black;
+  background-color: #F2EA79;
+}
+
 header {
+  height: 300px;
+  background-image: image-url('restaurant.jpg');
   text-align: center;
 }
 .footer {
@@ -9,9 +26,12 @@ header {
   text-align: center;
 }
 
+.fa-4x {
+  color: grey;
+}
+
+.content {
+  padding-top: 50px;
+}
 
 
-
-@import "bootstrap-sprockets";
-@import "bootstrap";
- 
