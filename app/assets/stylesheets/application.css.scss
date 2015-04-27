@@ -2,36 +2,95 @@
 @import "bootstrap";
  
 body {
+  
   font-family: 'Open Sans' sans-serif;
   color: grey;
-  background-color: #F2EA79;
+ }
+
+
+.navbar-transparent {
+   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.grey {
-  position: static;
-  color: black;
-  background-color: #F2EA79;
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: #eeeeee;
+  
+}
+
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus {
+  color: white;
+}
+
+h1 {
+  margin-top: 50px;
+  text-shadow: 2px 2px 5px black;
+}
+
+h2 {
+  text-shadow: 2px 2px 5px black;
 }
 
 header {
-  height: 300px;
+  text-align: center;
+  height: 400px;
   background-image: image-url('restaurant.jpg');
-  text-align: center;
-}
-.footer {
-  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ 
 }
 
-.container {
+
+
+.footer {
   text-align: center;
+  background-color: black;
+}
+
+.fa-facebook-square {
+  color: grey;
+}
+
+.fa-twitter {
+  color: grey;
+}
+
+.fa-2x:hover {
+  color: #E33FF0;
+}
+
+
+.container-fluid {
+  text-align: center;
+  
+}
+
+
+.content {
+  padding: 50px;
 }
 
 .fa-4x {
   color: grey;
 }
 
-.content {
-  padding-top: 50px;
+.fa-4x:hover {
+  color: #E33FF0;
 }
+
+
 
 
