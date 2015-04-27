@@ -5,6 +5,7 @@ body {
   
   font-family: 'Open Sans' sans-serif;
   color: grey;
+ 
  }
 
 
@@ -43,10 +44,10 @@ h2 {
   text-shadow: 2px 2px 5px black;
 }
 
-header {
+.title {
   text-align: center;
-  height: 400px;
-  background-image: image-url('restaurant.jpg');
+  height: 300px;
+  background-color: #E33FF0;
   background-repeat: no-repeat;
   background-size: cover;
   
