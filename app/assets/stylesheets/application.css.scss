@@ -5,7 +5,9 @@ body {
   margin: 0;
   font-family: 'Open Sans' sans-serif;
   color: grey;
- 
+  background-color: #FEBC98;
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
  }
 
 
@@ -43,19 +45,25 @@ h1 {
 h2 {
   text-shadow: 2px 2px 5px black;
 }
-
+.img {
+  background-image: image-url("verrine.jpg");
+  background-size: contain;
+  background-opacity: 0,7;
+  margin: auto;
+  width: 400px;
+  height: 300px;
+  
+}
 .title {
   text-align: center;
   height: 300px;
-  background-color: #E33FF0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
+
  
 }
 
 .appli {
   padding: 50px 50px;
+  background-color: #F6FBF4;
   
 }
 .footer {
@@ -87,19 +95,12 @@ h2 {
 
 
 
-.container-fluid {
-  text-align: center;
-  
-}
-
-
-
 .fa-4x {
   color: grey;
 }
 
 .fa-4x:hover {
-  color: #E33FF0;
+  color: #FEBC98;
 }
 
 
