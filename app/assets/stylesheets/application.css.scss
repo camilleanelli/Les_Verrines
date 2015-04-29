@@ -2,7 +2,7 @@
 @import "bootstrap";
  
 body {
-  
+  margin: 0;
   font-family: 'Open Sans' sans-serif;
   color: grey;
  
@@ -54,11 +54,26 @@ h2 {
  
 }
 
-
-
+.appli {
+  padding: 50px 50px;
+  
+}
 .footer {
+  margin-top : 20px;
   text-align: center;
   background-color: black;
+  height: 150px;
+  
+}
+
+
+.text-right {
+  font-size: 20px;
+  
+}
+
+.text-right:hover {
+  color: white;
 }
 
 .fa-facebook-square {
@@ -69,9 +84,7 @@ h2 {
   color: grey;
 }
 
-.fa-2x:hover {
-  color: #E33FF0;
-}
+
 
 
 .container-fluid {
@@ -80,9 +93,6 @@ h2 {
 }
 
 
-.content {
-  padding: 50px;
-}
 
 .fa-4x {
   color: grey;
