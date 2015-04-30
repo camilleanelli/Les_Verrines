@@ -2,7 +2,49 @@
     <div class="img">
   <h1>LES VERRINES</h1>
   <h2>Bar-Restaurant de verrines</h2>
-  <a class="btn btn-default" href="static_page/form" role="button">Réservez</a>
+ <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+ Réservez
+</button>
+      <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Réservez</h4>
+      </div>
+      <div class="modal-body">
+        <div id="wufoo-qmxybsv1i9bu1a">
+Fill out my <a href="https://lesverrines.wufoo.com/forms/qmxybsv1i9bu1a">online form</a>.
+</div>
+<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">HTML Forms powered by <a href="http://www.wufoo.com">Wufoo</a>.</div>
+<script type="text/javascript">var qmxybsv1i9bu1a;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'lesverrines',
+'formHash':'qmxybsv1i9bu1a',
+'autoResize':true,
+'height':'558',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { qmxybsv1i9bu1a = new WufooForm();qmxybsv1i9bu1a.initialize(options);qmxybsv1i9bu1a.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+        <button type="button" class="btn btn-primary">Valider la réservation</button>
+      </div>
+    </div>
+  </div>
+</div>
+
    </div>
 </div> 
 
