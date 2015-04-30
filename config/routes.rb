@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   
   get 'static_page/home'
   
-  get 'static_page/form'
+  get 'static_page/contact'
   
   root 'static_page#home'
   
